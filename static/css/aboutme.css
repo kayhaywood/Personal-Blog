@@ -1,0 +1,85 @@
+body {
+    background-image: url("../../images/bluebg.jpg");
+    background-size: cover;
+}
+  
+.container { 
+    height: 1400px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 0.1fr 1.5fr 0.2fr;
+    grid-template-areas:
+    "head head head" 
+    "nav nav nav"
+    "main main main"
+    "foot foot foot";
+    grid-gap: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
+.header {
+    grid-area: head;
+    background-color: #3e7aa1;
+    color: #93bccb;
+    text-align: center;
+    
+}
+  
+.header img {
+    height: 200px;
+}
+  
+nav {
+    grid-area: nav;
+    background-color: #3e7aa1;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    align-content:center;
+    justify-content: space-evenly;
+}
+  
+.menu a {
+    color: #93bccb;
+    text-decoration: none;
+}
+  
+ 
+main {
+    grid-area: main;
+    display: grid;
+}
+
+.author {
+    text-align: center;
+}
+
+.author img {
+    height:80px;
+}
+
+.author a {
+    text-decoration: none;
+}
+
+footer {
+    grid-area: foot;
+    background-color: #3e7aa1;
+    color:#93bccb;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+  }
+  
+  #social img{
+    height:60px;
+  }
+  
+  #social a {
+    text-decoration: none;
+  }
+

@@ -1,0 +1,166 @@
+body {
+  background-image: url("../../images/bluebg.jpg");
+  background-size: cover;
+}
+
+.container { 
+  height: 100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.1fr 1.5fr 1fr 0.2fr;
+  grid-template-areas:
+  "head head head" 
+  "nav nav nav"
+  "main main main"
+  "main main main"
+  "foot foot foot";
+  grid-gap: 0.3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  grid-area: head;
+  background-color: #3e7aa1;
+  color: #93bccb;
+  text-align: center;
+  
+}
+.header img {
+  height: 200px;
+}
+nav {
+  grid-area: nav;
+  background-color: #3e7aa1;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-content:center;
+  justify-content: space-evenly;
+}
+
+.menu a {
+  color: #93bccb;
+  text-decoration: none;
+}
+
+
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+.post1, .post2, .post3, .post4 {
+  border: 1px solid #93bccb;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.post1 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post2 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post3 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post4 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post1 a {
+  border-radius: 5px;
+  background: #3e7aa1;
+  color: #93bccb;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.post2 a {
+  border-radius: 5px;
+  background: #3e7aa1;
+  color: #93bccb;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.post3 a {
+  border-radius: 5px;
+  background: #3e7aa1;
+  color: #93bccb;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.post4 a {
+  border-radius: 5px;
+  background: #3e7aa1;
+  color: #93bccb;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.author {
+  text-align: center;
+}
+
+.author img {
+  height:80px;
+}
+
+.author a {
+  text-decoration: none;
+}
+
+footer {
+  grid-area: foot;
+  background-color: #3e7aa1;
+  color:#93bccb;
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+}
+
+#social img{
+  height:60px;
+}
+
+#social a {
+  text-decoration: none;
+}
