@@ -6,7 +6,7 @@
 
 
 body {
-  background-image: url("../../images/bluebg.jpg");
+  background-image: url("../images/bluebg.jpg");
   background-size: cover;
 }
 
@@ -52,12 +52,11 @@ nav ul {
   text-decoration: none;
 }
 
-/* Style the main blog post container */
 main {
   grid-area: main;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
-  gap: 20px; /* Space between blog posts */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
   padding: 20px;
 }
 
@@ -65,19 +64,18 @@ main h2 {
   text-align: center;
 }
 
-/* Style individual blog post containers */
 .side, .post1, .post2, .post3 {
   border: 1px solid #93bccb;
   border-radius: 8px;
   padding: 16px;
-  text-align: center; /* Center content within each post */
+  text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .side ul {
   list-style: none;
 }
-/* Style the images within each post */
+
 .post1 img {
   max-width: 100%;
   height: auto;
@@ -96,7 +94,6 @@ main h2 {
   border-radius: 8px;
 }
 
-/* Style the read more link */
 .post1 a {
   border-radius: 5px;
   background: #3e7aa1;
@@ -123,7 +120,6 @@ main h2 {
   font-weight: bold;
 }
 
-/* Add hover effect for the links */
 a:hover {
   color: #0056b3;
 }

@@ -1,10 +1,10 @@
 body {
-    background-image: url("../../images/bluebg.jpg");
+    background-image: url("../images/bluebg.jpg");
     background-size: cover;
 }
   
 .container { 
-    height: 1400px;
+    height: 100%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.4fr 0.1fr 1.5fr 0.2fr;
@@ -47,19 +47,22 @@ nav ul {
     color: #93bccb;
     text-decoration: none;
 }
-  
- 
+
 main {
     grid-area: main;
     display: grid;
 }
 
+p {
+    margin-bottom: 5px;
+}
+  
 .author {
     text-align: center;
 }
 
 .author img {
-    height:80px;
+    height:60px;
 }
 
 .author a {
