@@ -1,0 +1,21 @@
+nav {
+    grid-area: nav;
+    background-color: #f2a9b6;
+    color: #432660;
+    display: flex;
+    justify-items: space-evenly;
+    align-items: center;
+  }
+  
+  .posts a {
+    font-size: 5em;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  nav ul {
+    list-style: none;
+  }
+  
+  

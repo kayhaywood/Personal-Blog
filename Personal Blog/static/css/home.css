@@ -1,0 +1,32 @@
+@import "main.css";
+@import "header.css";
+@import "sidebar.css";
+@import "footer.css";
+@import "nav.css";
+
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.container { 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 150px auto 100px;
+  grid-template-areas: 
+  "head head"
+  "nav nav"
+  "main main"
+  "foot foot";
+  gap: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+body {
+  background-image: url("../../images/purplebg.jpg");
+  display: flex;
+  justify-content: center;
+}

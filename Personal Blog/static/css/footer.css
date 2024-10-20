@@ -1,0 +1,13 @@
+footer {
+  grid-area: foot;
+  background: #432660;
+  color: #f8dbe0;
+  
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+}
+
+#social img {
+  height: 40px
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2a9b6;
+}
+header {
+    color: #432660;
+    text-align: center;
+}
+  
+h1, h2 {
+    color: #432660;
+}
+
+p {
+    margin-bottom: 15px;
+}
+  
+footer {
+    text-align: center;
+}
+  
+footer img {
+    height: 80px;
+}
+  
+.footer a {
+    display: inline-block;
+    background: #432660;
+    color: #f8dbe0;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+  
+.footer a:hover {
+    background: #644582;
+}
